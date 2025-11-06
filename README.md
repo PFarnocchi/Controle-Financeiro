@@ -11,8 +11,8 @@ Para acompanhar os gastos domésticos.
 
 ---------------------------------------------------------------------------------------------------------------
   Instalar o virtual environment       python -m venv .venv
-                                       source .venv/bin/activate   (no Linux)
-                                       C:\Pasta_Projeto\fin_control>venv\scripts\activate (no Windows) 
+                                       source .venv/bin/activate   (Linux)
+                                       C:\Pasta_Projeto\fin_control>venv\scripts\activate (Windows) 
 
                                        Após ativar o Venv:    pip install requirements.txt
 
@@ -21,10 +21,10 @@ Para acompanhar os gastos domésticos.
   Recomensável instalar o DB browser for SQLite. 
                                        sudo snap install sqlitebrowser-casept    OU
                                        sudo apt install sqlitebrowser          (no Linux)
-                                       Baixar o instalador em sqlitebrowser.org e executar o .msi (no windows)
+                                       Baixar o instalador em sqlitebrowser.org e executar o .msi (windows)
 
-  Para Compilar         pyinstaller -F -w finplan.py --hidden-import='PIL._tkinter_finder'   (no Linux)
-                        pyinstaller -F -w finplan.py                                         (no  Windows)
+  Para Compilar         pyinstaller -F -w finplan.py --hidden-import='PIL._tkinter_finder'   (Linux)
+                        pyinstaller -F -w finplan.py                                         (Windows)
 
   Autor:  Paulo Farnocchi     Data: 2024      Local: Maringá - Paraná                
 ---------------------------------------------------------------------------------------------------------------
