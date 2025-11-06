@@ -3,8 +3,11 @@ Para acompanhar os gastos domésticos.
 
 
  use Python 3.12.3
+ 
  Livre para usar/alterar/modificar    :)
+ 
  não contém componentes pagos (all free) 
+ 
 
 ---------------------------------------------------------------------------------------------------------------
   Instalar o virtual environment       python -m venv .venv
@@ -69,6 +72,7 @@ Obs: Na primeira rodada o programa irá criar e Pré-montar o banco de dados SQL
      regras de segurança.    
 
 Estrutura dos diretórios:
+
     Linux:
         ~/finplan
             /db_finplan
