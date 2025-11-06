@@ -10,15 +10,18 @@ Para acompanhar os gastos domésticos.
  
 
 ---------------------------------------------------------------------------------------------------------------
-  Instalar o virtual environment       python -m venv .venv
+  Instalar o virtual environment
+                                       python -m venv .venv
                                        source .venv/bin/activate   (Linux)
                                        C:\Pasta_Projeto\fin_control>venv\scripts\activate (Windows) 
-
-                                       Após ativar o Venv:    pip install requirements.txt
-
-                                       deactivate                  (desativa o virtual environment)  
+                                       
+                                       Após ativar o Venv:
+                                                            pip install requirements.txt
+                                                            
+                                       deactivate           (desativa o virtual environment)  
 
   Recomensável instalar o DB browser for SQLite. 
+  
                                        sudo snap install sqlitebrowser-casept    OU
                                        sudo apt install sqlitebrowser          (no Linux)
                                        Baixar o instalador em sqlitebrowser.org e executar o .msi (windows)
